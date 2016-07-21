@@ -41,6 +41,7 @@ El curso seguirá este índice:</p>
 
 <ul>
 <li><a href="https://www.youtube.com/watch?v=G78HoCF7UgE">Introdución al hacking ético</a></li>
+<p>En este curso no es necesario tener requisitos previos sobre hacking. Se empieza desde cero hasta coger un nivel avanzado de forma progresiva.</p>
 <li>Kali Linux y sus herramientas</li>
 <li>Introducción a redes</li>
 <li>Reconocimiento o Footprinting</li>
@@ -61,12 +62,19 @@ Las PoC's que se verán son de muy diversa índole, como modo de ejemplo se impa
 
 <ul>
 <li><a href="https://www.youtube.com/watch?v=Z6S15SVZivc">Configuración de una VPN en Backbox</a></li>
+<p>En este vídeo veremos como configurar una VPN en una distribución Linux de seguridad informática denominada Backbox</p>
 <li><a href="https://www.youtube.com/watch?v=rnB3Rfoiz0U">Setoolkit + BeEF</a></li>
+<p>Veremos como clonar un sitio web de una red social, para realizar un ataque de ingeniería social y obtener las credenciales de acceso al sitio web. También veremos su implementación con BeEF para garantizar a través de un hook.js sacar el máximo partido al framework y explotar vulnerabilidades en el sistema víctima. </p>
 <li><a href="https://www.youtube.com/watch?v=3mYe9X2j7Yk">Obtención de vulnerabilidades en un CMS</a></li>
+<p>Es muy interesante en servidores realizar una serie de escáneres de vulnerabilidades de los CMS, para poder tener acceso a información privilegiada del servidor web, y obtener una shell del servidor y su escalada de privilegios.</p>
 <li><a href="https://www.youtube.com/watch?v=XFiN3QJtlO0">DoS con Slowloris.pl</a></li>
+<p>Esta genial herramienta que permite realizar un ataque de denegación de servicio a un servidor Linux. Esto genera que ese servicio sea inaccesible a los usuarios legítimos. En este caso mantiene conexiones abiertas el máximo tiempo posible a base del envío de peticiones http a una tasa de datos muy baja</p>
 <li><a href="https://www.youtube.com/watch?v=E318HkL9X-I">Setoolkit para la creación de Payloads</a></li>
+<p>SET, proporciona un gran abanico de posibilidades en cuanto a ataques de ingeniería social. Estas herramientas se integran con el framework Metasploit para así garantizar una fase de explotación en el sistema víctima. La creación de un payload ejecutable garantiza que ese binario malicioso mediante la ingeniería social, la víctima pueda ejecutarlo y así realizar la conexión hacia nuestro host y la obtención de meterpreter para uso de administración remota del sistema. </p>
 <li><a href="https://www.youtube.com/watch?v=H7DUcWphjXA">TeamViewer en Kali Linux</a></li>
+<p>En este vídeo os explico como poder instalar este software en un sistema operativo como Kali Linux, para poder conectarnos a él de forma remota desde un smartphone. </p>
 <li><a href="https://www.youtube.com/watch?v=3YoR9JPFpr4">Antergos y blackarch Parte I</a></li>
+<p>Veremos como instalar el sistema operativo Antergos, y la segunda parte instalar las herramientas de Blackarch en nuestro sistema previamente instalado.</p>
 </ul>
 
 <p>Y muchas más PoC's que los suscriptores o invitados en el canal, podrán ver y poner en práctica siempre en un entorno virtualizado!</p>
@@ -80,6 +88,10 @@ Se verán máquinas vulnerables de <a href="https://www.vulnhub.com/">Vulnhub</a
 <ul>
 <li>bWAPP</li>
 <li><a href="https://www.youtube.com/watch?v=gjLo6QtsE6o">Zero Cool, Margo, Eugene en Gibson:0.2</a></li>
+<p>Atención Spoiler! En el veremos una vulnerabilidad de ImageMagick para la escalada de privilegios CVE-2016-3714, fallos de seguridad en el código fuente de la página HTML descubriendo un usuario y su contraseña para posteriormente realizar una conexión ssh al servidor.
+Se usará John the Ripper para descifrar en texto plano los hashes del archivo /etc/shadow. Y el kit de herramientas Sleuth Kit, muy usado para el análisis forense en los sistemas.
+Veremos también una herramienta llamada cupp.py para la realización de diccionarios personalizados orientados a un objetivo en concreto. Haciéndonos una serie de preguntas o afirmaciones ya sea la fecha de nacimiento, nombres, apellidos, nick etc...
+Ese diccionario donde estará la supuesta clave privada para poder descifrar con gpg el archivo protegido flag.txt, que será la meta de este CTF.</p>
 <li>VulnOS:2</li>
 <li>SickOS:1.2</li>
 <li>Sidney:0.2</li>
